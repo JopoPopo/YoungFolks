@@ -42,10 +42,6 @@ The "Flash" series is optimized for low-latency responses, making the chat exper
 It also handles large document uploads such as PDFs with ease, allowing for detailed analyses.
 
 ### ⚖️ Reflection on Responsible AI
-Integrating Large Language Models (LLMs) into document analysis requires a proactive commitment to accuracy and data privacy. 
-In this project, I implemented a strict **System Instruction** to mitigate "hallucinations." 
-The model is explicitly programmed to answer *only* using the provided text and to admit when information is missing. 
-This "grounding" ensures the tool remains a reliable assistant rather than a source of misinformation.
-Furthermore, responsible AI use involves rigorous data hygiene. 
-By utilizing a `.env` file for API keys and memory-efficient byte-handling for uploads, the application follows the principle of security-by-design. 
-As an intern-ready developer, I recognize that while AI can synthesize information rapidly, human oversight is necessary to validate outputs, especially when dealing with data-driven insights.
+As AI integration becomes standard in software development, the responsibility of the developer shifts from mere implementation to ethical consideration. Responsible AI use requires a "human-in-the-loop" philosophy, ensuring that models are grounded in factual data to prevent the spread of misinformation and hallucinations. Developers must prioritize transparency by clearly defining the model's limitations and ensuring that AI-generated outputs are identifiable and verifiable.
+
+Furthermore, data privacy and security remain paramount. Implementing responsible AI means protecting user data through secure API management, practicing data minimization, and remaining vigilant against biases inherent in training data. As I grow as a developer, I am committed to building tools that leverage the efficiency of Large Language Models (LLMs) while upholding the highest standards of digital ethics, security, and algorithmic accountability.
